@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #d4af37;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-[#0a0a0a] text-white antialiased;
+  }
+
+  ::selection {
+    @apply bg-gold text-black;
+  }
+}
+
+@layer utilities {
+  .font-serif {
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+}
+
