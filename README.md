@@ -66,5 +66,3 @@ By default, the preview will be available at `http://localhost:4173`.
 You can customize the content by editing the components in `src/components/`. The theme colors and fonts are configured in `src/index.css` and `tailwind.config.js` (if applicable) or directly via Tailwind classes in the components.
 
 ---
-
-Built with ❤️ by Arik
